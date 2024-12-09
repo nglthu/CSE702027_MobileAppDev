@@ -23,9 +23,11 @@ https://dart.dev/#try-dart
 
 ## Chương 1: Giới thiệu về Flutter
 
-1.1. Lịch sử của Flutter
+1.1. Lịch sử của Flutter và kiến trúc Flutter
 
-1.2. Kiến trúc Flutter
+
+[Google for Developer](https://www.youtube.com/watch?v=fq4N0hgOWzU)
+
 
 1.3. Tạo một ứng dụng trên Flutter
 

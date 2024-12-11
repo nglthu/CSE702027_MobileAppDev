@@ -36,6 +36,8 @@ https://dart.dev/#try-dart
 
 [Your first flutter App](https://codelabs.developers.google.com/codelabs/flutter-codelab-first?hl=en#0)
 
+<img src ="https://nglthu.github.io/CSE702027_MobileAppDev/demo/demo1.png">
+
 [Example: Google for Developer: Create an app using Flutter](https://www.youtube.com/watch?v=W1pNjxmNHNQ)
 
 [Codelab](https://codelabs.developers.google.com)

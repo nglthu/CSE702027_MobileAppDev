@@ -35,5 +35,9 @@ var nine = 9;
   var listItem = [1, 'hello', 2, 'goodbye'];
   print(listItem[0]);//1
   print(listItem[1]);//hello
+ for (var i = 0; i < listItem.length; i++) {
+    print(listItem[i]);
+  }
+  
 
 ```

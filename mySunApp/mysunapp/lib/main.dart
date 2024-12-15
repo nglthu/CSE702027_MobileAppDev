@@ -58,6 +58,12 @@ class _MyHomePageState extends State<MyHomePage> {
   int _counter = 0;
   String _hello = 'Hello';
   var listItem = [1, 'hello', 2, 'goodbye'];
+  static const Map<String, Color> _colors = <String, Color>{
+    'Red': Colors.red,
+    'Green': Colors.green,
+    'Blue': Colors.blue,
+    'Cyan': Colors.cyan,
+  };
 
   void _incrementCounter() {
     setState(() {
@@ -67,7 +73,6 @@ class _MyHomePageState extends State<MyHomePage> {
       // _counter without calling setState(), then the build method would not be
       // called again, and so nothing would appear to happen.
       _counter++;
-      
     });
   }
 
@@ -115,12 +120,22 @@ class _MyHomePageState extends State<MyHomePage> {
               '$_counter',
               style: Theme.of(context).textTheme.headlineMedium,
             ),
+            Text('$_hello'),
             Text(
-              '$_hello'
+              '$listItem',
+            ),
+            for (final MapEntry<String, Color> entry in _colors.entries)
+              // The "id" can be any Object, not just a String.
+              LayoutId(
+                id: entry.key,
+                child: Container(
+                  color: entry.value,
+                  width: 100.0,
+                  height: 100.0,
+                  alignment: Alignment.center,
+                  child: Text(entry.key),
+                ),
               ),
-            Text(
-              '$listItem'
-            ),  
           ],
         ),
       ),

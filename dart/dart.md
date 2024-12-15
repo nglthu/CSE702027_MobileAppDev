@@ -27,3 +27,13 @@ var n = num.parse('345');
 var nine = 9;
   print('this is number : ${nine}');
 ```
+
+# List
+
+```
+ //List
+  var listItem = [1, 'hello', 2, 'goodbye'];
+  print(listItem[0]);//1
+  print(listItem[1]);//hello
+
+```

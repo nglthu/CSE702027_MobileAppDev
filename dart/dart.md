@@ -88,4 +88,13 @@ remove(), removeAt(), removeLast(), removeRange()
   //2-->removed
   //3
 ```
+removeAll works with String
+
+```
+//removeAll works with String
+  final characters = <String>{'Hello', 'Stay Calm', 'Goodbye', 'Hi'};
+  characters.removeAll({'Hello', 'Stay Calm', 'Laugh'});
+  print(characters); // {Goodbye, Hi}
+
+```
 

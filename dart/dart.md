@@ -10,3 +10,13 @@ var a =10;
   (a == 10) ? print('hello'): print('no hello');
 }
 ```
+
+# String to Number
+
+num.parse();
+
+```
+var n = num.parse('345');
+  print(n -100);//245
+
+```

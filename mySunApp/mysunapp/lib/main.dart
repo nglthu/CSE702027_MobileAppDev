@@ -57,6 +57,7 @@ class MyHomePage extends StatefulWidget {
 class _MyHomePageState extends State<MyHomePage> {
   int _counter = 0;
   String _hello = 'Hello';
+  var listItem = [1, 'hello', 2, 'goodbye'];
 
   void _incrementCounter() {
     setState(() {
@@ -117,6 +118,9 @@ class _MyHomePageState extends State<MyHomePage> {
             Text(
               '$_hello'
               ),
+            Text(
+              '$listItem'
+            ),  
           ],
         ),
       ),

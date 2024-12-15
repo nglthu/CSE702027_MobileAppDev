@@ -97,4 +97,12 @@ removeAll works with String
   print(characters); // {Goodbye, Hi}
 
 ```
+# Map
+
+```
+var mapExp = {1:'Hello', 2:'Goodbye'};
+  print(mapExp);
+  print(mapExp[1]);//Hello
+  print(mapExp[2]);//Goodbye
+```
 

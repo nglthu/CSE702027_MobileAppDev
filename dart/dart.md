@@ -41,3 +41,20 @@ var nine = 9;
   
 
 ```
+
+List with default values
+
+```
+var fillableList = new List<int>.filled(3, 1, growable: true);
+  //List length =3, default value =1, growable
+ fillableList[0]= 1;
+ fillableList[2] = 2;
+
+  
+  for (var i = 0; i < fillableList.length; i++) {
+    print(fillableList[i]);
+  }
+  //1
+  //1
+  //2
+```

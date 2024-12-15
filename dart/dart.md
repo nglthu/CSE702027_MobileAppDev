@@ -20,3 +20,10 @@ var n = num.parse('345');
   print(n -100);//245
 
 ```
+
+# Concat
+
+```
+var nine = 9;
+  print('this is number : ${nine}');
+```

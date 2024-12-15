@@ -58,3 +58,23 @@ var fillableList = new List<int>.filled(3, 1, growable: true);
   //1
   //2
 ```
+## Basic Operation on List
+
+add()
+addAll()
+insert()
+insertAll()
+
+```
+ fillableList.add(3);
+  
+  for (var i = 0; i < fillableList.length; i++) {
+    print(fillableList[i]);
+  }
+  //1
+  //1
+  //2
+  //3
+```
+remove(), removeAt(), removeLast(), removeRange()
+

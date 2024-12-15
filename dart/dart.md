@@ -106,3 +106,21 @@ var mapExp = {1:'Hello', 2:'Goodbye'};
   print(mapExp[2]);//Goodbye
 ```
 
+Example
+
+```
+var mapExp = {1:'Hello', 2:'Goodbye', 3:'Confused', 4: 'No Confused'};
+  for (var i =1; i <= mapExp.length; i++)
+  {
+    print(mapExp[i]);
+    //Hello
+    //Goodbye
+    //Confused
+    //No Confused
+  }
+  print(mapExp);
+  //{1: Hello, 2: Goodbye, 3: Confused, 4: No Confused}
+ 
+ 
+```
+

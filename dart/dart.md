@@ -77,4 +77,15 @@ insertAll()
   //3
 ```
 remove(), removeAt(), removeLast(), removeRange()
+```
+ fillableList.remove(2);
+  
+  for (var i = 0; i < fillableList.length; i++) {
+    print(fillableList[i]);
+  }
+  //1
+  //1
+  //2-->removed
+  //3
+```
 

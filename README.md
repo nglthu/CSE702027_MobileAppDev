@@ -1,5 +1,8 @@
 # CSE702027
 
+# Setup to run Flutter App on Android Mobile Device Simulation
+[Setup Flutter App on Android](https://lethunguyen.github.io/MobileDev/Simulation)
+
 # Flutter Platform
 
 https://flutter.dev/

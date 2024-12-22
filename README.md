@@ -5,6 +5,15 @@
 
 <img src='demo/android.png'>
 
+# Setup to run Flutter App on IPhone Device Simulation
+
+
+
+[Setup Flutter App on Android](https://lethunguyen.github.io/MobileDev/IOSSimulation)
+<img src='demo/Xcode.png'>
+
+
+
 # Flutter Platform
 
 https://flutter.dev/

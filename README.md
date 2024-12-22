@@ -3,6 +3,8 @@
 # Setup to run Flutter App on Android Mobile Device Simulation
 [Setup Flutter App on Android](https://lethunguyen.github.io/MobileDev/Simulation)
 
+<img src='demo/android.png'>
+
 # Flutter Platform
 
 https://flutter.dev/

@@ -8,9 +8,17 @@
 # Setup to run Flutter App on IPhone Device Simulation
 
 
-
 [Setup Flutter App on Android](https://lethunguyen.github.io/MobileDev/IOSSimulation)
+
 <img src='demo/Xcode.png'>
+
+# Setup to run on WEB (Live Codespaces)
+
+<img src ='demo/demo1.png'>
+
+# Setup to run on WEB (Local 0.0.0.0:3000)
+
+<img src ="/demo/simpleApp.png">
 
 
 

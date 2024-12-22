@@ -1,6 +1,6 @@
 # CSE702027
 
-# Setup and Run
+# First App Setup and Run
 
 ## Setup to run Flutter App on Android Mobile Device Simulation
 [Setup Flutter App on Android](https://lethunguyen.github.io/MobileDev/Simulation)
